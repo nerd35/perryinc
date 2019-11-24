@@ -1,22 +1,52 @@
-.App {
+.nav-logo{
+  width: 156px;
+}
+
+.nav-link {
+  color: darkgrey !important;
+  font-weight: 900;
+}
+.header-title{
+  font-size: 50px;
+  font-weight: 900;
+}
+.header-title:hover{
+  color: darkgrey !important;
+}
+.header-text{
+  color: darkgrey !important;
+  font-size: 30px;
+  font-weight: 900;
+}
+.btn-primary{
+  background-color: #321fdb;
+  border-radius: 25px;
+}
+.btn-primary:hover{
+  background-color: chocolate;
+}
+.btn-info{
+  border-radius: 25px;
+}
+.btn-info:hover{
+  background-color: darkgrey;
+}
+
+.category-title{
+  font-size: 40px;
+  font-weight: 800;
+  color: chocolate;
+}
+.product-image{
+  width: 250px;
+}
+.product-link{
   text-align: center;
+  color: chocolate;
+  text-decoration: none;
+  font-size: 25px;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.product-link:hover{
+  text-decoration: none;
+  color: darkgrey !important;
 }
