@@ -22,8 +22,6 @@ function App() {
         <Route path="/" component={Home} exact />
         <Route path="/About" component={About} />
         <Route path="/Service" component={Service} />
-        <Route path="/Login" component={Login} />
-        <Route path="/Signup" component={Signup} />
       </Switch>
 
     </BrowserRouter>
