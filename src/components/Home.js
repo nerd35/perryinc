@@ -11,7 +11,7 @@ import product4 from './images/product_image_26-230-600x518.jpg';
 
 const Home = () => {
     return (
-        <div>
+        <div className="container-fluid">
             <div className="container">
                 <div className="row mt-5">
                     <div className="col-lg-5 col-sm-12 mt-5">
@@ -22,7 +22,7 @@ const Home = () => {
                             <NavLink to="/Service" className="btn btn-lg btn-info border-0 shadow ml-3 mt-3" >WHAT WE DO</NavLink>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-sm-12">
+                    <div className="col-lg-5 col-sm-12">
                         <img src={banner} className="mt-5 banner-pix" alt="banner" />
                     </div>
                 </div>
